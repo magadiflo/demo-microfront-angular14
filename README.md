@@ -71,3 +71,26 @@ puerto 4201
 ```
  ng s mf-shopping
 ```
+```
+ ng s mf-payment
+```
+```
+ ng s mf-shell
+```
+## Agregando librería par ejecutar todos los proyectos en paralelo
+```
+npm i -D npm-run-all
+```
+Se configuró el script en el package.json para que se ejecute todo en paralelo
+con el siguiente comando: **npm run all**
+```
+"scripts": {
+    ......
+    "mf-shell": "ng s mf-shell",
+    "mf-shopping": "ng s mf-shopping",
+    "mf-payment": "ng s mf-payment",
+    "all": "npm-run-all --parallel mf-shell mf-shopping mf-payment",
+    .....
+  },
+```
+
