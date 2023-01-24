@@ -8,7 +8,7 @@ Creamos un espacio de trabajo con el siguiente comando:
 ng new demo-microfront-angular14 --create-application=false
 ```
 NOTA:
-**--create-application=false**, para que no cree carpetas del src, assets, sin archivos karma.config.js, .editorconfig, etc..., es decir,
+**--create-application=false**, para que no cree carpetas del src, assets, sin archivos karma.config.js, etc..., es decir,
 únicamente queremos que nos cree un espacio de trabajo.
 
 ## Crendo micro frontends
