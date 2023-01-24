@@ -41,3 +41,26 @@ por cada uno de los micro frontend.
 ```
 ng g library commons-lib
 ```
+
+## Instalando librería @angular-architects
+Esta librería nos dará la opción de poder trabajar con webpack
+```
+npm i -D @angular-architects/module-federation
+```
+
+## Agregando librería @angular-architects en cada micro frontend
+Agregamos la librería al proyecto **mf-shell** indicándole que estará en el 
+puerto 4200 y que será un proyecto del **tipo host**. Que sea del **tipo host**
+nos indica que será un proyecto que se encargará de la orquestación de los microfrontends,
+de poder intergrarlos.
+```
+ng add @angular-architects/module-federation --project mf-shell --port 4200 --type host
+```
+Agregamos la librería al proyecto **mf-shopping** y será del **tipo remote**
+```
+ng add @angular-architects/module-federation --project mf-shopping --port 4201 --type remote
+```
+Agregamos la librería al proyecto **mf-payment** y será del **tipo remote**
+```
+ng add @angular-architects/module-federation --project mf-payment --port 4202 --type remote
+```
