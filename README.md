@@ -64,3 +64,10 @@ Agregamos la librería al proyecto **mf-payment** y será del **tipo remote**
 ```
 ng add @angular-architects/module-federation --project mf-payment --port 4202 --type remote
 ```
+
+## Desplegando un microfrontend
+Desplegamos el microfrontend **mf-shopping** que según la configuración estará en el 
+puerto 4201
+```
+ ng s mf-shopping
+```
