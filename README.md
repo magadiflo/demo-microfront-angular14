@@ -1,4 +1,5 @@
-# DemoMicrofrontAngular14
+# [Demo Microfront Angular 14](https://www.youtube.com/watch?v=12x2QpDCsfk&list=PLy09ETjgu8VqKGRs1UFq3ZiFbY0zzhdLr&index=10)
+Obtenido del canal de LogiDev del curso de Angular Avanzado
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.10.
 
